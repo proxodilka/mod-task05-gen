@@ -184,6 +184,7 @@ namespace generator
 
             StreamWriter sw = new StreamWriter(out_filepath);
             sw.Write(generated);
+            sw.Write("\n");
             sw.Close();
         }
         static void Main(string[] args)
